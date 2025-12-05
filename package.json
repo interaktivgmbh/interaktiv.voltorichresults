@@ -1,0 +1,10 @@
+{
+  "name": "interaktiv.voltorichresults",
+  "version": "1.0.0",
+  "repository": "https://code.interaktiv.de/interaktiv/interaktiv.voltorichresults",
+  "interaktiv_setup": {
+    "packages": [
+      "interaktiv.voltorichresults"
+    ]
+  }
+}

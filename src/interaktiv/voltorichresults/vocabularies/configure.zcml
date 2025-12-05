@@ -1,0 +1,11 @@
+<configure
+        xmlns="http://namespaces.zope.org/zope"
+        i18n_domain="interaktiv.voltorichresults">
+
+    <utility
+            name="interaktiv.voltorichresults.vocabularies.richresults_contenttypes"
+            component=".richresults_contenttypes.RichResultsContentTypesFactory"
+            provides="zope.schema.interfaces.IVocabularyFactory"
+    />
+
+</configure>

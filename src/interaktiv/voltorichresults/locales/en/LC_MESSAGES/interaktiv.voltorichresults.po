@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-08-21 10:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: interaktiv.voltorichresults\n"
+
+#######################
+# Rich Results Registry
+#######################
+
+msgid "trans_richresults_settings"
+msgstr "Volto Rich Results"
+
+msgid "trans_richresults_settings_description"
+msgstr "Settings for the Volto Rich Results Plugin"
+
+msgid "trans_richresults_config"
+msgstr "Rich Results Configuration"
+
+msgid "trans_richresults_config_description"
+msgstr "Configuration for the Rich Results Plugin for Volto"
+
+
+#######################
+# Rich Results form
+#######################
+
+msgid "trans_richresults_fieldset"
+msgstr "Google Rich Results structured data"
+
+msgid "trans_richresults"
+msgstr "Google Rich Results structured data"
+
+msgid "trans_richresults_description"
+msgstr "Google supported structured data in `jsonld` format for Rich Results. It must pass the validaton on https://search.google.com/test/rich-results?utm_medium=jsonld"

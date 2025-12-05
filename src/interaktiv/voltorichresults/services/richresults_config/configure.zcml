@@ -1,0 +1,14 @@
+<configure
+        xmlns="http://namespaces.zope.org/zope"
+        xmlns:plone="http://namespaces.plone.org/plone"
+>
+
+    <plone:service
+            method="GET"
+            factory=".get.RichResultsConfigGet"
+            for="plone.dexterity.interfaces.IDexterityContent"
+            permission="interaktiv.voltorichresults.manage"
+            name="@richresults-config"
+    />
+
+</configure>

@@ -1,0 +1,7 @@
+exclude *.cfg
+exclude .*
+include *.py
+include *.txt
+graft src
+global-exclude *.pyc
+global-exclude *.pyo

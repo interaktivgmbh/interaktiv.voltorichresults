@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rolemap>
+  <permissions>
+    <permission name="InteraktivVoltoRichResults: Manage" acquire="True">
+      <role name="Editor"/>
+      <role name="Owner"/>
+      <role name="Site Administrator"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="InteraktivVoltoRichResults: Configure" acquire="True">
+      <role name="Site Administrator"/>
+      <role name="Manager"/>
+    </permission>
+  </permissions>
+</rolemap>

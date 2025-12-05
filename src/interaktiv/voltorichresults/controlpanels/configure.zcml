@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:z3c="http://namespaces.zope.org/z3c"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="interaktiv.voltorichresults">
+
+    <!-- View: Volto Rich Results Settings -->
+    <browser:page
+        name="voltorichresults_settings"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        class="interaktiv.voltorichresults.controlpanels.settings.VoltoRichResultsSettingsView"
+        permission="interaktiv.voltorichresults.configure"
+        layer="interaktiv.voltorichresults.interfaces.IInteraktivVoltoRichResultsLayer"
+    />
+
+    <adapter
+      factory="interaktiv.voltorichresults.controlpanels.settings.VoltoRichResultsControlpanel"
+      name="voltorichresults_settings"
+    />
+
+</configure>

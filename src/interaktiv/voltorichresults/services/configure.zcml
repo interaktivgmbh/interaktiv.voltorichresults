@@ -1,0 +1,8 @@
+<configure>
+    <!-- Include for plone:service directive -->
+    <include package="plone.rest" file="meta.zcml"/>
+
+    <!-- Include packages -->
+    <include package=".richresults_config"/>
+
+</configure>

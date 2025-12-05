@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+    <plone:behavior
+        name="interaktiv.voltorichresults.richresults"
+        title="RichResults"
+        description="Configures ld+json data on context for Google Rich Results."
+        provides="interaktiv.voltorichresults.behaviors.richresults.IRichResults"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker="interaktiv.voltorichresults.behaviors.richresults.IRichResults"
+        factory="interaktiv.voltorichresults.behaviors.richresults.RichResults"
+    />
+
+</configure>
