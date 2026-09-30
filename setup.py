@@ -1,6 +1,6 @@
 from os import path
 
-from setuptools import find_packages, setup
+from setuptools import find_namespace_packages, setup
 
 # Package metadata
 NAME = 'interaktiv.voltorichresults'
@@ -9,7 +9,7 @@ URL = 'https://github.com/interaktivgmbh/interaktiv.voltorichresults'
 EMAIL = 'support@interaktiv.de'
 AUTHOR = 'Interaktiv GmbH'
 REQUIRES_PYTHON = '~=3.11'
-VERSION = '1.0.0'
+VERSION = '2.0.0'
 REQUIRES_PLONE_VERSION = '6.0.0'
 
 # Additional package requires
@@ -59,9 +59,8 @@ setup(
     author_email=EMAIL,
     url=URL,
     license='GPL version 2',
-    packages=find_packages('src'),
+    packages=find_namespace_packages('src', include=['interaktiv.*']),
     package_dir={'': 'src'},
-    namespace_packages=['interaktiv'],
     include_package_data=True,
     zip_safe=False,
     python_requires=REQUIRES_PYTHON,
